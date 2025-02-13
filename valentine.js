@@ -65,27 +65,30 @@ let yesB4 = () => {
 }
 
 let yesB5 = () => {
-	yesButton.style.padding = "12vh 46%"
-	yesButton.style.left = "250px";
+	yesButton.style.padding = "11vh 43%"
+	yesButton.style.left = "230px";
 
-	noButton.style.left = "200px";
-	noButton.style.bottom ="clamp(100px, 25vh, 50vh)"
-	noButton.style.top = "clamp(300px, 50% ,800px)"
-	// noButton.style.bottom = "300px";
-	noButton.style.fontSize = "16px"
-	noButton.style.position = "absolute"
-	noButton.style.padding = "2vh 2%"
-	noButton.textContent = "Even if I ask nicely?";	
+	noButton.style.left = "45px";
+	noButton.style.fontSize = "14px";
+	noButton.style.whiteSpace = "wrap"
+	noButton.textContent = "N O O O O ?";	
+	noButton.style.lineHeight = "20px"
 	noButton.removeEventListener("click",yesB5);
 	noButton.addEventListener("click",yesB6)
 }
 
+
 let yesB6 = () => {
 	yesButton.style.padding = "17vh 46%"
-	yesButton.style.left = "307px";
+	yesButton.style.left = "237px";
 
-	noButton.style.top = "250px";
-	noButton.textContent = "Super reallyyyy??";	
+	noButton.style.left = "200px";
+	noButton.style.bottom ="clamp(40px, 1vh, 50vh)"
+	noButton.style.top = "clamp(300px, 80% ,800px)"
+	noButton.style.fontSize = "16px"
+	noButton.style.position = "absolute"
+	noButton.style.padding = "1vh 2%"
+	noButton.textContent = ":<<<<<<??";	
 	noButton.removeEventListener("click",yesB6);
 	noButton.addEventListener("click",yesB7)
 }

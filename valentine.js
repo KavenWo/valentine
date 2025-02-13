@@ -80,7 +80,7 @@ let yesB5 = () => {
 
 let yesB6 = () => {
 	yesButton.style.padding = "17vh 46%"
-	yesButton.style.left = "237px";
+	yesButton.style.left = "230px";
 
 	noButton.style.left = "200px";
 	noButton.style.bottom ="clamp(40px, 1vh, 50vh)"
@@ -94,8 +94,8 @@ let yesB6 = () => {
 }
 
 let yesB7 = () => {
-	yesButton.style.padding = "24.5vh 32%";
-	yesButton.style.left = "237px";
+	yesButton.style.padding = "24.5vh 37%";
+	yesButton.style.left = "236px";
 	yesButton.textContent = "YES<3";
 
 	noButton.style.display = "none";
